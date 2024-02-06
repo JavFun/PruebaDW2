@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Special+Elite&family=Titillium+Web&display=swap');
+:root{
+	--color-general:#333;
+	--color-titulos:#000;
+	--color-amarillo: #ffda79;
+	--color-azul-fondo: #cce4e4;
+	---color-azul-subtitulo: #c1dada;
+	--color-texto-sobre-azul: #17494d;
+	--fondo-morado: #d6bbf6;
+	--color-texto-sobre-morado: #4e4e4e;
+	--fondo-footer: #fff;
+}
+
+body{
+	font-size: 14px;
+	color: #888;
+}
+
+h1,h2,h3,h4,h5,h6{
+	color: var(--color-titulos);
+}
+
+header{
+    padding: 10px 0;
+}
+
+#hero{
+	padding: 60px 0;
+}
+
+#clientes{
+	padding: 40px 0;
+}
+
+#about{
+	background-color: var(--color-azul-fondo);
+	padding: 70px 0;
+}
+
+#about i{
+	font-size: 30px;
+}
+
+#about h6{
+	font-size: 15px;
+	color: var(--color-general);
+}
+
+#about h5{
+	font-size: 20px;
+	padding: 7px 0;
+	
+}
+
+#about h4{
+	background-color: var(---color-azul-subtitulo);
+	border-radius: 50px;
+	padding-right: 20px 20%;
+	padding: 10px 0;
+}
+
+.titulo{
+	padding: 20px 0;
+	font-size: 50px;
+	color: var(--color-titulos);
+	font-weight: 600;
+}
+
+#seoul{
+	text-align: center;
+	padding: 50px 0;
+}
+
+#join{
+	background-color: var(--fondo-morado);
+	padding: 40px;
+}
+
+#join p{
+	color: var(--color-texto-sobre-morado);
+}
+
+footer{
+	padding: 30px 0;
+	text-align: center;
+}
+
+.amarillo{
+	background-color: var(--color-amarillo);
+	border-radius: 40px;
+	border-color: var(--color-amarillo);
+	padding: 0 20px;
+}
+
+#hero h1{
+	font-size: 60px;
+	padding: 15px 0;
+}
+
+
+
+
